@@ -1,0 +1,15 @@
+.App {
+    display: block;
+    border: 1px solid grey;
+    padding: 10px;
+}
+.forecast {
+    padding: 5px;
+}
+.forecast:hover {
+    cursor: pointer;
+    background-color: #fafafa;
+}
+.forecast:not(:first-child) {
+    border-top: 1px solid gray;    
+}
