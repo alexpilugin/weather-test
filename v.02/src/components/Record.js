@@ -5,7 +5,7 @@ class Record extends React.Component {
       return (
         <div className="forecast">
             <p>{this.props.counter} : {this.props.date}</p>
-            <p>Temparature: {this.props.temparature} 
+            <p>Temparature:<b> {this.props.temparature} &#8451; </b>
                 (min: {this.props.temp_min}, 
                 max: {this.props.temp_max}), 
                 pressure: {this.props.pressure}, 

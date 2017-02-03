@@ -3,3 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#map {
+  display: block;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 300px;
+  border: 1px solid gray;
+
+}
+#root {
+  padding-top: 300px;
+}
